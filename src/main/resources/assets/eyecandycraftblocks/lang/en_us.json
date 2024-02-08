@@ -1,5 +1,5 @@
 {
-  "itemGroup.eyecandyblocks": "EyeCandyCraft - Blocchi",
+  "itemGroup.eyecandyblocks": "EyeCandyCraft - Blocks",
 
   "block.eyecandycraftblocks.corrugatedsteelwhite": "White Corrugated Steel",
   "block.eyecandycraftblocks.corrugatedsteellightgray": "Light Gray Corrugated Steel",
@@ -16,5 +16,6 @@
   "block.eyecandycraftblocks.corrugatedsteelblue": "Blue Corrugated Steel",
   "block.eyecandycraftblocks.corrugatedsteelpurple": "Purple Corrugated Steel",
   "block.eyecandycraftblocks.corrugatedsteelmagenta": "Magenta Corrugated Steel",
-  "block.eyecandycraftblocks.corrugatedsteelpink": "Pink Corrugated Steel"
+  "block.eyecandycraftblocks.corrugatedsteelpink": "Pink Corrugated Steel",
+  "block.eyecandycraftblocks.asphalt": "Asphalt"
 }
