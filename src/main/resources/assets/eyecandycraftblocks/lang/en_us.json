@@ -17,5 +17,14 @@
   "block.eyecandycraftblocks.corrugatedsteelpurple": "Purple Corrugated Steel",
   "block.eyecandycraftblocks.corrugatedsteelmagenta": "Magenta Corrugated Steel",
   "block.eyecandycraftblocks.corrugatedsteelpink": "Pink Corrugated Steel",
-  "block.eyecandycraftblocks.asphalt": "Asphalt"
+  "block.eyecandycraftblocks.asphalt": "Asphalt",
+  "block.eyecandycraftblocks.hazstripe": "Hazard Stripe Block",
+  "block.eyecandycraftblocks.fakesolar": "Fake Solar Panel",
+  "block.eyecandycraftblocks.fakecrate": "Fake Crate",
+  "block.eyecandycraftblocks.fakevent": "Fake Air Vent",
+  "block.eyecandycraftblocks.cartai": "Carta I",
+  "block.eyecandycraftblocks.cartax": "Carta X",
+  "block.eyecandycraftblocks.tombino": "Manhole",
+  "block.eyecandycraftblocks.mortar": "Mortar Block",
+  "block.eyecandycraftblocks.thatch": "Thatch Block"
 }

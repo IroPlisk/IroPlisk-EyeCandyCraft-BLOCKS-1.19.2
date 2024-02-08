@@ -1,15 +1,18 @@
 package com.example.eyecandycraftblocks.blocks;
 
 import com.example.eyecandycraftblocks.EyeCandyCraftBlocks;
-
 import com.example.eyecandycraftblocks.EyeCandyCraftBlocksCreativeModeTab;
 import com.example.eyecandycraftblocks.items.BasicItemBlocks;
+
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.TrapDoorBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -86,9 +89,47 @@ public class BasicBlocks {
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> ASPHALT = registerBlock("asphalt",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> HAZSTRIPE = registerBlock("hazstripe",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> FAKESOLAR = registerBlock("fakesolar",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> FAKECRATE = registerBlock("fakecrate",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> FAKEVENT = registerBlock("fakevent",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CARTAI = registerBlock("cartai",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CARTAX = registerBlock("cartax",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> MORTAR = registerBlock("mortar",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> THATCH = registerBlock("thatch",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> TOMBINO = registerBlock("tombino",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "up": "eyecandycraftblocks:block/fakesolartop",
+    "east": "eyecandycraftblocks:block/fakesolarside",
+    "south": "eyecandycraftblocks:block/fakesolarside",
+    "west": "eyecandycraftblocks:block/fakesolarside",
+    "north": "eyecandycraftblocks:block/fakesolarside",
+    "down": "eyecandycraftblocks:block/fakesolarside"
+  }
+}
