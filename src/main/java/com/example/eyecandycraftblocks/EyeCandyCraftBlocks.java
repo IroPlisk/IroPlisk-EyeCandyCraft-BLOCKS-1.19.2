@@ -4,6 +4,8 @@ import com.example.eyecandycraftblocks.blocks.BasicBlocks;
 import com.example.eyecandycraftblocks.items.BasicItemBlocks;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -82,9 +84,25 @@ public class EyeCandyCraftBlocks
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            // Some client setup code
+            // Meno male che setRenderLayer viene rimosso nelle versioni future, è una palla assurda sta merda
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDWHITE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDLIGHTGRAY.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDGRAY.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDBLACK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDBROWN.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDRED.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDORANGE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDYELLOW.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDLIME.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDGREEN.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDLIGHTBLUE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDCYAN.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDBLUE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDPURPLE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDMAGENTA.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(BasicBlocks.TINTEDPINK.get(), RenderType.translucent());
         }
     }
 }

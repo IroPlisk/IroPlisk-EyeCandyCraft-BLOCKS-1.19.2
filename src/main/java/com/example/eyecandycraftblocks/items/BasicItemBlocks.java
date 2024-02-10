@@ -2,6 +2,7 @@ package com.example.eyecandycraftblocks.items;
 
 import com.example.eyecandycraftblocks.EyeCandyCraftBlocks;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.redstone.Redstone;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
