@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ii ",
+    "ii ",
+    "   "
+  ],
+  "key": {
+    "i": {
+      "item": "eyecandycraftblocks:straw"
+    }
+  },
+  "result": {
+    "item": "eyecandycraftblocks:thatch",
+    "count": 16
+  }
+}

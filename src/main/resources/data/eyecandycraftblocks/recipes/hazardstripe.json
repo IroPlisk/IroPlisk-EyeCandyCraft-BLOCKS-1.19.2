@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "yby",
+    "bmb",
+    "yby"
+  ],
+  "key": {
+    "m": {
+      "item": "eyecandycraftblocks:mortar"
+    },
+    "b": {
+      "item": "minecraft:black_dye"
+    },
+    "y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "eyecandycraftblocks:hazstripe",
+    "count": 16
+  }
+}

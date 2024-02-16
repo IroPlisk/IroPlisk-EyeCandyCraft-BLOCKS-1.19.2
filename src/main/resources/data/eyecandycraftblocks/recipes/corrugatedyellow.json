@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eyecandycraftblocks:corrugatedsteellightgray"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "result": {
+    "item": "eyecandycraftblocks:corrugatedsteelyellow"
+  }
+}

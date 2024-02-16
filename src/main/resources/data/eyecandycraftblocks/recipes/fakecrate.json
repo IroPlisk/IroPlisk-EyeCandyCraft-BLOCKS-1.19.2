@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ysy",
+    "sss",
+    "ysy"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "y": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "item": "eyecandycraftblocks:fakecrate"
+  }
+}

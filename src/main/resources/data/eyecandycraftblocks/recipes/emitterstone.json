@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rrr",
+    "rsr",
+    "rrr"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stone"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "eyecandycraftblocks:emitterstone"
+  }
+}

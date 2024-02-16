@@ -1,6 +1,9 @@
 {
   "itemGroup.eyecandyblocks": "EyeCandyCraft - Blocks",
 
+  "item.eyecandycraftblocks.staw": "Straw",
+  "item.eyecandycraftblocks.moltenglass": "Molten Glass",
+
   "block.eyecandycraftblocks.corrugatedsteelwhite": "White Corrugated Steel",
   "block.eyecandycraftblocks.corrugatedsteellightgray": "Light Gray Corrugated Steel",
   "block.eyecandycraftblocks.corrugatedsteelgray": "Gray Corrugated Steel",
@@ -49,8 +52,8 @@
   "block.eyecandycraftblocks.fakesolar": "Fake Solar Panel",
   "block.eyecandycraftblocks.fakecrate": "Fake Crate",
   "block.eyecandycraftblocks.fakevent": "Fake Air Vent",
-  "block.eyecandycraftblocks.cartai": "Carta I",
-  "block.eyecandycraftblocks.cartax": "Carta X",
+  "block.eyecandycraftblocks.cartai": "Timberframe",
+  "block.eyecandycraftblocks.cartax": "Timberframe Cross-Brace",
   "block.eyecandycraftblocks.tombino": "Manhole",
   "block.eyecandycraftblocks.mortar": "Mortar Block",
   "block.eyecandycraftblocks.thatch": "Thatch Block"

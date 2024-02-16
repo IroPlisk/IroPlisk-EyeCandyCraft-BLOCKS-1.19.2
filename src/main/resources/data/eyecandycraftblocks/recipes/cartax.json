@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ysy",
+    "sys",
+    "ysy"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:clay_ball"
+    },
+    "y": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "item": "eyecandycraftblocks:cartax",
+    "count": 16
+  }
+}

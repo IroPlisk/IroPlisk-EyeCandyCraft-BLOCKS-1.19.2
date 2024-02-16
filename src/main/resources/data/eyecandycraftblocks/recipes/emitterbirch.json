@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rrr",
+    "rwr",
+    "rrr"
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:birch_planks"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "eyecandycraftblocks:emitterbirch"
+  }
+}
