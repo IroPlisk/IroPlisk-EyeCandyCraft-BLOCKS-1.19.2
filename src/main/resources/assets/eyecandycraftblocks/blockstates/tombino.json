@@ -1,5 +1,20 @@
 {
   "variants": {
-    "": { "model":  "eyecandycraftblocks:block/tombino"}
+    "facing=east,half=bottom,open=false": { "model": "eyecandycraftblocks:block/tombinosotto", "y": 90 },
+    "facing=south,half=bottom,open=false": { "model": "eyecandycraftblocks:block/tombinosotto", "y": 180 },
+    "facing=west,half=bottom,open=false": { "model": "eyecandycraftblocks:block/tombinosotto", "y": 270 },
+    "facing=north,half=bottom,open=false": { "model": "eyecandycraftblocks:block/tombinosotto" },
+    "facing=east,half=bottom,open=true": { "model": "eyecandycraftblocks:block/tombinoaperto", "y": 90 },
+    "facing=south,half=bottom,open=true": { "model": "eyecandycraftblocks:block/tombinoaperto", "y": 180 },
+    "facing=west,half=bottom,open=true": { "model": "eyecandycraftblocks:block/tombinoaperto", "y": 270 },
+    "facing=north,half=bottom,open=true": { "model": "eyecandycraftblocks:block/tombinoaperto" },
+    "facing=east,half=top,open=false": { "model": "eyecandycraftblocks:block/tombino", "y": 90 },
+    "facing=south,half=top,open=false": { "model": "eyecandycraftblocks:block/tombino", "y": 180 },
+    "facing=west,half=top,open=false": { "model": "eyecandycraftblocks:block/tombino", "y": 270 },
+    "facing=north,half=top,open=false": { "model": "eyecandycraftblocks:block/tombino" },
+    "facing=east,half=top,open=true": { "model": "eyecandycraftblocks:block/tombinoaperto", "y": 90, "uvlock": true },
+    "facing=south,half=top,open=true": { "model": "eyecandycraftblocks:block/tombinoaperto", "y": 180, "uvlock": true },
+    "facing=west,half=top,open=true": { "model": "eyecandycraftblocks:block/tombinoaperto", "y": 270, "uvlock": true },
+    "facing=north,half=top,open=true": { "model": "eyecandycraftblocks:block/tombinoaperto", "uvlock": true }
   }
 }

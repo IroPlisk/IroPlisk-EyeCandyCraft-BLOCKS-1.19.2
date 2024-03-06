@@ -24,67 +24,67 @@ public class BasicBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, EyeCandyCraftBlocks.MODID);
 
     public static final RegistryObject<Block> WHITE_CORRUGATED_STEEL = registerBlock("corrugatedsteelwhite",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> LIGHT_GRAY_CORRUGATED_STEEL = registerBlock("corrugatedsteellightgray",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> GRAY_CORRUGATED_STEEL = registerBlock("corrugatedsteelgray",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> BLACK_CORRUGATED_STEEL = registerBlock("corrugatedsteelblack",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> BROWN_CORRUGATED_STEEL = registerBlock("corrugatedsteelbrown",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> RED_CORRUGATED_STEEL = registerBlock("corrugatedsteelred",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> ORANGE_CORRUGATED_STEEL = registerBlock("corrugatedsteelorange",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> YELLOW_CORRUGATED_STEEL = registerBlock("corrugatedsteelyellow",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> LIME_CORRUGATED_STEEL = registerBlock("corrugatedsteellime",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> GREEN_CORRUGATED_STEEL = registerBlock("corrugatedsteelgreen",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> LIGHT_BLUE_CORRUGATED_STEEL = registerBlock("corrugatedsteellightblue",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> CYAN_CORRUGATED_STEEL = registerBlock("corrugatedsteelcyan",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> BLUE_CORRUGATED_STEEL = registerBlock("corrugatedsteelblue",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> PURPLE_CORRUGATED_STEEL = registerBlock("corrugatedsteelpurple",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> MAGENTA_CORRUGATED_STEEL = registerBlock("corrugatedsteelmagenta",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> PINK_CORRUGATED_STEEL = registerBlock("corrugatedsteelpink",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     // misto
@@ -93,11 +93,11 @@ public class BasicBlocks {
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> HAZSTRIPE = registerBlock("hazstripe",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> FAKESOLAR = registerBlock("fakesolar",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> FAKECRATE = registerBlock("fakecrate",
@@ -105,7 +105,7 @@ public class BasicBlocks {
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> FAKEVENT = registerBlock("fakevent",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> CARTAI = registerBlock("cartai",
@@ -161,7 +161,7 @@ public class BasicBlocks {
 
     // porte trapdoor e altre cazzate
     public static final RegistryObject<Block> TOMBINO = registerBlock("tombino",
-            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     // emitter
