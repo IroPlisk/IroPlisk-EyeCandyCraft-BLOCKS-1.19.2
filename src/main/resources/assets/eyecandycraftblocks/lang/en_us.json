@@ -38,7 +38,6 @@
   "block.eyecandycraftblocks.tintedmagenta": "Magenta Tinted Glass",
   "block.eyecandycraftblocks.tintedpink": "Pink Tinted Glass",
 
-
   "block.eyecandycraftblocks.emitterbirch": "Emitter Birch Planks",
   "block.eyecandycraftblocks.emitteroak": "Emitter Oak Planks",
   "block.eyecandycraftblocks.emitterspruce": "Emitter Birch Planks",
@@ -46,6 +45,23 @@
   "block.eyecandycraftblocks.emittercobblestone": "Emitter Cobblestone",
   "block.eyecandycraftblocks.emitterstonebricks": "Emitter Stone Bricks",
   "block.eyecandycraftblocks.emitterconcrete": "Emitter Concrete",
+
+  "block.eyecandycraftblocks.concreteblack": "Black Reinforced Concrete",
+  "block.eyecandycraftblocks.concreteblue": "Blue Reinforced Concrete",
+  "block.eyecandycraftblocks.concretebrown": "Brown Reinforced Concrete",
+  "block.eyecandycraftblocks.concretecyan": "Cyan Reinforced Concrete",
+  "block.eyecandycraftblocks.concretegray": "Gray Reinforced Concrete",
+  "block.eyecandycraftblocks.concretegreen": "Green Reinforced Concrete",
+  "block.eyecandycraftblocks.concretelightblue": "Light Blue Reinforced Concrete",
+  "block.eyecandycraftblocks.concretelightgray": "Light Gray Reinforced Concrete",
+  "block.eyecandycraftblocks.concretelime": "Lime Reinforced Concrete",
+  "block.eyecandycraftblocks.concretemagenta": "Magenta Reinforced Concrete",
+  "block.eyecandycraftblocks.concreteorange": "Orange Reinforced Concrete",
+  "block.eyecandycraftblocks.concretepink": "Pink Reinforced Concrete",
+  "block.eyecandycraftblocks.concretepurple": "Purple Reinforced Concrete",
+  "block.eyecandycraftblocks.concretered": "Red Reinforced Concrete",
+  "block.eyecandycraftblocks.concretewhite": "White Reinforced Concrete",
+  "block.eyecandycraftblocks.concreteyellow": "Yellow Reinforced Concrete",
 
   "block.eyecandycraftblocks.asphalt": "Asphalt",
   "block.eyecandycraftblocks.hazstripe": "Hazard Stripe Block",
