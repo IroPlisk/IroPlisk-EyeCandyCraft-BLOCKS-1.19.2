@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "eyecandycraftblocks:corrugatedsteelwhite",
+    "eyecandycraftblocks:corrugatedsteellightgray",
+    "eyecandycraftblocks:corrugatedsteelgray",
+    "eyecandycraftblocks:corrugatedsteelblack",
+    "eyecandycraftblocks:corrugatedsteelbrown",
+    "eyecandycraftblocks:corrugatedsteelred",
+    "eyecandycraftblocks:corrugatedsteelorange",
+    "eyecandycraftblocks:corrugatedsteelyellow",
+    "eyecandycraftblocks:corrugatedsteellime",
+    "eyecandycraftblocks:corrugatedsteelgreen",
+    "eyecandycraftblocks:corrugatedsteellightblue",
+    "eyecandycraftblocks:corrugatedsteelcyan",
+    "eyecandycraftblocks:corrugatedsteelblue",
+    "eyecandycraftblocks:corrugatedsteelpurple",
+    "eyecandycraftblocks:corrugatedsteelmagenta",
+    "eyecandycraftblocks:corrugatedsteelpink",
+    "eyecandycraftblocks:tombino"
+  ]
+}

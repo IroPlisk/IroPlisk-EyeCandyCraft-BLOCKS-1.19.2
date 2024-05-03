@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "eyecandycraftblocks:emitterbirch",
+    "eyecandycraftblocks:emitteroak",
+    "eyecandycraftblocks:emitterspruce",
+    "eyecandycraftblocks:cartax",
+    "eyecandycraftblocks:cartai",
+    "eyecandycraftblocks:thatch",
+    "eyecandycraftblocks:fakecrate"
+  ]
+}
