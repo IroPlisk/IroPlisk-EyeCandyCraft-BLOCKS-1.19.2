@@ -187,6 +187,72 @@ public class BasicBlocks {
             () -> new PoweredBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA) //lmao teracota 8====D
                     .strength(2.5f)), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
 
+    // reinforced concrete della railcraft
+    public static final RegistryObject<Block> CONCRETE_RED = registerBlock("concretered",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CONCRETE_ORANGE = registerBlock("concreteorange",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CONCRETE_YELLOW = registerBlock("concreteyellow",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CONCRETE_LIME = registerBlock("concretelime",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CONCRETE_GREEN = registerBlock("concretegreen",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CONCRETE_CYAN = registerBlock("concretecyan",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CONCRETE_LIGHT_BLUE = registerBlock("concretelightblue",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CONCRETE_BLUE = registerBlock("concreteblue",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CONCRETE_PURPLE = registerBlock("concretepurple",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CONCRETE_MAGENTA = registerBlock("concretemagenta",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CONCRETE_PINK = registerBlock("concretepink",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CONCRETE_BROWN = registerBlock("concretebrown",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CONCRETE_BLACK = registerBlock("concreteblack",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CONCRETE_GRAY = registerBlock("concretegray",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CONCRETE_LIGHT_GRAY = registerBlock("concretelightgray",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CONCRETE_WHITE = registerBlock("concretewhite",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
