@@ -1,14 +1,20 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "mmm",
+    "mcm",
+    "mmm"
+  ],
+  "key": {
+    "m": {
       "item": "eyecandycraftblocks:corrugatedsteellightgray"
     },
-    {
+    "c": {
       "item": "minecraft:yellow_dye"
     }
-  ],
+  },
   "result": {
-    "item": "eyecandycraftblocks:corrugatedsteelyellow"
+    "item": "eyecandycraftblocks:corrugatedsteelyellow",
+    "count": 8
   }
 }

@@ -102,7 +102,7 @@ public class BasicBlocks {
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> FAKECRATE = registerBlock("fakecrate",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
-                    .strength(2.5f).
+                    .strength(2.5f).sound(SoundType.WOOD).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> FAKEVENT = registerBlock("fakevent",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
@@ -110,11 +110,11 @@ public class BasicBlocks {
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> CARTAI = registerBlock("cartai",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
-                    .strength(2.5f).
+                    .strength(2.5f).sound(SoundType.WOOD).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> CARTAX = registerBlock("cartax",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
-                    .strength(2.5f).
+                    .strength(2.5f).sound(SoundType.WOOD).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> MORTAR = registerBlock("mortar",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
@@ -122,7 +122,7 @@ public class BasicBlocks {
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> THATCH = registerBlock("thatch",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
-                    .strength(2.5f).
+                    .strength(2.5f).sound(SoundType.WOOD).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
 
     // Tinted glass
