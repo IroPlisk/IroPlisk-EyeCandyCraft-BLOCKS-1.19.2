@@ -252,6 +252,18 @@ public class BasicBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(6f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> OLD_GRASS = registerBlock("old_grass",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(1f).sound(SoundType.GRASS).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> AETHER_GRASS = registerBlock("angelic_grass",
+            () -> new Block(BlockBehaviour.Properties.of(Material.GRASS)
+                    .strength(1f).sound(SoundType.GRASS).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> AETHER_DIRT = registerBlock("angelic_dirt",
+            () -> new Block(BlockBehaviour.Properties.of(Material.GRASS)
+                    .strength(1f).sound(SoundType.ROOTED_DIRT).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

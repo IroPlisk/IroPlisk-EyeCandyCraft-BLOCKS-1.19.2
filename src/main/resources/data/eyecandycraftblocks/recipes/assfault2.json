@@ -1,0 +1,20 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "minecraft:gravel",
+      "count": 32
+    },
+    {
+      "item": "forestry:bituminous_peat",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "eyecandycraftblocks:asphalt",
+      "count": 32
+    }
+  ],
+  "energy": 5000
+}

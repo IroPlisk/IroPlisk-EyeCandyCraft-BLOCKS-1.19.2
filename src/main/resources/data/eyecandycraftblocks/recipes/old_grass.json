@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "beb",
+    "bbb"
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:grass_block"
+    },
+    "e": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "eyecandycraftblocks:old_grass",
+    "count": 8
+  }
+}

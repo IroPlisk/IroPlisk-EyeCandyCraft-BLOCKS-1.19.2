@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "bgb",
+    "bbb"
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:grass_block"
+    },
+    "g": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "item": "eyecandycraftblocks:angelic_grass",
+    "count": 8
+  }
+}
