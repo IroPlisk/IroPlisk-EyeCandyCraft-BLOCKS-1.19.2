@@ -42,6 +42,22 @@
     "eyecandycraftblocks:fakesolar",
     "eyecandycraftblocks:fakevent",
     "eyecandycraftblocks:tombino",
-    "eyecandycraftblocks:mortar"
+    "eyecandycraftblocks:mortar",
+    "eyecandycraftblocks:concretered",
+    "eyecandycraftblocks:concreteorange",
+    "eyecandycraftblocks:concreteyellow",
+    "eyecandycraftblocks:concretelime",
+    "eyecandycraftblocks:concretegreen",
+    "eyecandycraftblocks:concretecyan",
+    "eyecandycraftblocks:concretelightblue",
+    "eyecandycraftblocks:concreteblue",
+    "eyecandycraftblocks:concretepurple",
+    "eyecandycraftblocks:concretemagenta",
+    "eyecandycraftblocks:concretepink",
+    "eyecandycraftblocks:concretebrown",
+    "eyecandycraftblocks:concreteblack",
+    "eyecandycraftblocks:concretegray",
+    "eyecandycraftblocks:concretelightgray",
+    "eyecandycraftblocks:concretewhite"
   ]
 }

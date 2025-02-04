@@ -69,7 +69,7 @@ public class EyeCandyCraftBlocks
     public void onServerStarting(ServerStartingEvent event)
     {
         // Do something when the server starts
-        LOGGER.info("HELLO from server starting");
+        LOGGER.info("EyeCandyCraft in carihamento...");
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
