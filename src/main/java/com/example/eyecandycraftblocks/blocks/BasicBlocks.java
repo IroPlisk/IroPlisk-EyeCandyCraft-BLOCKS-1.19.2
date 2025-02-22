@@ -23,6 +23,7 @@ public class BasicBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, EyeCandyCraftBlocks.MODID);
 
+    // corrugated steel
     public static final RegistryObject<Block> WHITE_CORRUGATED_STEEL = registerBlock("corrugatedsteelwhite",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(2.5f).
@@ -159,7 +160,74 @@ public class BasicBlocks {
     public static final RegistryObject<Block> TINTEDPINK = registerBlock("tintedpink",
             () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().sound(SoundType.GLASS).isViewBlocking((state, getter, pos) -> false)), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
 
-    // porte trapdoor e altre cazzate
+    //Diagonal Tiles
+    public static final RegistryObject<Block> WHITE_DIAGONAL_TILE = registerBlock("diagonaltilewhite",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> LIGHT_GRAY_DIAGONAL_TILE = registerBlock("diagonaltilelightgray",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> GRAY_DIAGONAL_TILE = registerBlock("diagonaltilegray",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> BLACK_DIAGONAL_TILE = registerBlock("diagonaltileblack",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> BROWN_DIAGONAL_TILE = registerBlock("diagonaltilebrown",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> RED_DIAGONAL_TILE = registerBlock("diagonaltilered",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> ORANGE_DIAGONAL_TILE = registerBlock("diagonaltileorange",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> YELLOW_DIAGONAL_TILE = registerBlock("diagonaltileyellow",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> LIME_DIAGONAL_TILE = registerBlock("diagonaltilelime",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> GREEN_DIAGONAL_TILE = registerBlock("diagonaltilegreen",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> LIGHT_BLUE_DIAGONAL_TILE = registerBlock("diagonaltilelightblue",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CYAN_DIAGONAL_TILE = registerBlock("diagonaltilecyan",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> BLUE_DIAGONAL_TILE = registerBlock("diagonaltileblue",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> PURPLE_DIAGONAL_TILE = registerBlock("diagonaltilepurple",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> MAGENTA_DIAGONAL_TILE = registerBlock("diagonaltilemagenta",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> PINK_DIAGONAL_TILE = registerBlock("diagonaltilepink",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+
+
+    // Doors, trapdoors and whatnot
     public static final RegistryObject<Block> TOMBINO = registerBlock("tombino",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(7f).

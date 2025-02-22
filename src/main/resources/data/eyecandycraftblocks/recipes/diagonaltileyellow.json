@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "eyecandycraftblocks:yellow_diagonal_tile_mold"
+  },
+  "result": "eyecandycraftblocks:diagonaltileyellow",
+  "experience": 1.0,
+  "cookingtime": 100
+}
