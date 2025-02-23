@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "eyecandycraftblocks:lime_tile_mold"
+  },
+  "result": "eyecandycraftblocks:tilelime",
+  "experience": 1.0,
+  "cookingtime": 100
+}

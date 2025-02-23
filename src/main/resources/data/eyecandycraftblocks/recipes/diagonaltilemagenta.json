@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "eyecandycraftblocks:white_diagonal_tile_mold"
+    "item": "eyecandycraftblocks:magenta_diagonal_tile_mold"
   },
   "result": "eyecandycraftblocks:diagonaltilemagenta",
   "experience": 1.0,

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "eyecandycraftblocks:pink_tile_mold"
+  },
+  "result": "eyecandycraftblocks:tilepink",
+  "experience": 1.0,
+  "cookingtime": 100
+}

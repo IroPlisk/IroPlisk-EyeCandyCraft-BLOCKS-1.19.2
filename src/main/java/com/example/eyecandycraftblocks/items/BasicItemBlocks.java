@@ -56,6 +56,39 @@ public class BasicItemBlocks {
     public static final RegistryObject<Item> PINK_DIAGONAL_TILE_MOLD = ITEMS.register("pink_diagonal_tile_mold",
             () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
 
+    // tile
+    public static final RegistryObject<Item> WHITE_TILE_MOLD = ITEMS.register("white_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> LIGHT_GRAY_TILE_MOLD = ITEMS.register("light_gray_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> GRAY_TILE_MOLD = ITEMS.register("gray_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> BLACK_TILE_MOLD = ITEMS.register("black_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> BROWN_TILE_MOLD = ITEMS.register("brown_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> RED_TILE_MOLD = ITEMS.register("red_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> ORANGE_TILE_MOLD = ITEMS.register("orange_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> YELLOW_TILE_MOLD = ITEMS.register("yellow_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> LIME_TILE_MOLD = ITEMS.register("lime_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> GREEN_TILE_MOLD = ITEMS.register("green_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> LIGHT_BLUE_TILE_MOLD = ITEMS.register("light_blue_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> CYAN_TILE_MOLD = ITEMS.register("cyan_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> BLUE_TILE_MOLD = ITEMS.register("blue_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> PURPLE_TILE_MOLD = ITEMS.register("purple_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> MAGENTA_TILE_MOLD = ITEMS.register("magenta_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> PINK_TILE_MOLD = ITEMS.register("pink_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
 
     public static void register(IEventBus eventBus) { ITEMS.register(eventBus);}
 

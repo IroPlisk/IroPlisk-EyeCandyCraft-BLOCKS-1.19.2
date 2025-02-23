@@ -226,6 +226,72 @@ public class BasicBlocks {
                     .strength(2.5f).
                     requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
 
+    //Tiles
+    public static final RegistryObject<Block> WHITE_TILE = registerBlock("tilewhite",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> LIGHT_GRAY_TILE = registerBlock("tilelightgray",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> GRAY_TILE = registerBlock("tilegray",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> BLACK_TILE = registerBlock("tileblack",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> BROWN_TILE = registerBlock("tilebrown",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> RED_TILE = registerBlock("tilered",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> ORANGE_TILE = registerBlock("tileorange",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> YELLOW_TILE = registerBlock("tileyellow",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> LIME_TILE = registerBlock("tilelime",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> GREEN_TILE = registerBlock("tilegreen",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> LIGHT_BLUE_TILE = registerBlock("tilelightblue",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> CYAN_TILE = registerBlock("tilecyan",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> BLUE_TILE = registerBlock("tileblue",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> PURPLE_TILE = registerBlock("tilepurple",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> MAGENTA_TILE = registerBlock("tilemagenta",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+    public static final RegistryObject<Block> PINK_TILE = registerBlock("tilepink",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).
+                    requiresCorrectToolForDrops()), EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB);
+
 
     // Doors, trapdoors and whatnot
     public static final RegistryObject<Block> TOMBINO = registerBlock("tombino",
