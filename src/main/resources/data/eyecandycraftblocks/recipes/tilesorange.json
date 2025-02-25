@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "eyecandycraftblocks:orange_small_tile_mold"
+  },
+  "result": "eyecandycraftblocks:tilesorange",
+  "experience": 1.0,
+  "cookingtime": 100
+}

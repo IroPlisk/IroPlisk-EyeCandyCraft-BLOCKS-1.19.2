@@ -90,6 +90,40 @@ public class BasicItemBlocks {
     public static final RegistryObject<Item> PINK_TILE_MOLD = ITEMS.register("pink_tile_mold",
             () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
 
+    // small tile
+    public static final RegistryObject<Item> WHITE_SMALL_TILE_MOLD = ITEMS.register("white_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> LIGHT_SMALL_GRAY_TILE_MOLD = ITEMS.register("light_gray_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> GRAY_SMALL_TILE_MOLD = ITEMS.register("gray_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> BLACK_SMALL_TILE_MOLD = ITEMS.register("black_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> BROWN_SMALL_TILE_MOLD = ITEMS.register("brown_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> RED_SMALL_TILE_MOLD = ITEMS.register("red_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> ORANGE_SMALL_TILE_MOLD = ITEMS.register("orange_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> YELLOW_SMALL_TILE_MOLD = ITEMS.register("yellow_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> LIME_SMALL_TILE_MOLD = ITEMS.register("lime_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> GREEN_SMALL_TILE_MOLD = ITEMS.register("green_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> LIGHT_SMALL_BLUE_TILE_MOLD = ITEMS.register("light_blue_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> CYAN_SMALL_TILE_MOLD = ITEMS.register("cyan_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> BLUE_SMALL_TILE_MOLD = ITEMS.register("blue_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> PURPLE_SMALL_TILE_MOLD = ITEMS.register("purple_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> MAGENTA_SMALL_TILE_MOLD = ITEMS.register("magenta_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> PINK_SMALL_TILE_MOLD = ITEMS.register("pink_small_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+
     public static void register(IEventBus eventBus) { ITEMS.register(eventBus);}
 
 }

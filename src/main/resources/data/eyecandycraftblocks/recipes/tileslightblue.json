@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "eyecandycraftblocks:light_blue_small_tile_mold"
+  },
+  "result": "eyecandycraftblocks:tileslightblue",
+  "experience": 1.0,
+  "cookingtime": 100
+}
