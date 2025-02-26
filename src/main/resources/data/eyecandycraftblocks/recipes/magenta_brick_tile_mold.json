@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eyecandycraftblocks:light_gray_brick_tile_mold"
+    },
+    {
+      "tag": "forge:dyes/magenta"
+    }
+  ],
+  "result": {
+    "item": "eyecandycraftblocks:magenta_brick_tile_mold"
+  }
+}

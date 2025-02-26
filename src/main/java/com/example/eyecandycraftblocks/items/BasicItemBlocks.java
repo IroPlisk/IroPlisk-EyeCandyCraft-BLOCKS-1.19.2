@@ -124,6 +124,40 @@ public class BasicItemBlocks {
     public static final RegistryObject<Item> PINK_SMALL_TILE_MOLD = ITEMS.register("pink_small_tile_mold",
             () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
 
+    //Brick tile
+    public static final RegistryObject<Item> WHITE_BRICK_TILE_MOLD = ITEMS.register("white_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> LIGHT_GRAY_BRICK_TILE_MOLD = ITEMS.register("light_gray_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> GRAY_BRICK_TILE_MOLD = ITEMS.register("gray_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> BLACK_BRICK_TILE_MOLD = ITEMS.register("black_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> BROWN_BRICK_TILE_MOLD = ITEMS.register("brown_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> RED_BRICK_TILE_MOLD = ITEMS.register("red_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> ORANGE_BRICK_TILE_MOLD = ITEMS.register("orange_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> YELLOW_BRICK_TILE_MOLD = ITEMS.register("yellow_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> LIME_BRICK_TILE_MOLD = ITEMS.register("lime_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> GREEN_BRICK_TILE_MOLD = ITEMS.register("green_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> LIGHT_BLUE_BRICK_TILE_MOLD = ITEMS.register("light_blue_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> CYAN_BRICK_TILE_MOLD = ITEMS.register("cyan_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> BLUE_BRICK_TILE_MOLD = ITEMS.register("blue_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> PURPLE_BRICK_TILE_MOLD = ITEMS.register("purple_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> MAGENTA_BRICK_TILE_MOLD = ITEMS.register("magenta_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> PINK_BRICK_TILE_MOLD = ITEMS.register("pink_brick_tile_mold",
+            () -> new Item(new Item.Properties().tab(EyeCandyCraftBlocksCreativeModeTab.ECC_BLOCKS_CREATIVE_MODE_TAB)));
+
     public static void register(IEventBus eventBus) { ITEMS.register(eventBus);}
 
 }

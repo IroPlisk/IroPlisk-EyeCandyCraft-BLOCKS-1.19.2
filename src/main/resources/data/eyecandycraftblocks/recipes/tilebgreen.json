@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "eyecandycraftblocks:green_brick_tile_mold"
+  },
+  "result": "eyecandycraftblocks:tilebgreen",
+  "experience": 1.0,
+  "cookingtime": 100
+}

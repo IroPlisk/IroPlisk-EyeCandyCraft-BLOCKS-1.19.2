@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "eyecandycraftblocks:red_brick_tile_mold"
+  },
+  "result": "eyecandycraftblocks:tilebred",
+  "experience": 1.0,
+  "cookingtime": 100
+}

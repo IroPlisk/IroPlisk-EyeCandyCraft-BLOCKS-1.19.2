@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "eyecandycraftblocks:magenta_brick_tile_mold"
+  },
+  "result": "eyecandycraftblocks:tilebmagenta",
+  "experience": 1.0,
+  "cookingtime": 100
+}

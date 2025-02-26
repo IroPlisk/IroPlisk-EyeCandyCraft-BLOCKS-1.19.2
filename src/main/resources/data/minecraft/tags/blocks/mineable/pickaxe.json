@@ -106,6 +106,22 @@
     "eyecandycraftblocks:tilesblue",
     "eyecandycraftblocks:tilespurple",
     "eyecandycraftblocks:tilesmagenta",
-    "eyecandycraftblocks:tilespink"
+    "eyecandycraftblocks:tilespink",
+    "eyecandycraftblocks:tilebwhite",
+    "eyecandycraftblocks:tileblightgray",
+    "eyecandycraftblocks:tilebgray",
+    "eyecandycraftblocks:tilebblack",
+    "eyecandycraftblocks:tilebbrown",
+    "eyecandycraftblocks:tilebred",
+    "eyecandycraftblocks:tileborange",
+    "eyecandycraftblocks:tilebyellow",
+    "eyecandycraftblocks:tileblime",
+    "eyecandycraftblocks:tilebgreen",
+    "eyecandycraftblocks:tileblightblue",
+    "eyecandycraftblocks:tilebcyan",
+    "eyecandycraftblocks:tilebblue",
+    "eyecandycraftblocks:tilebpurple",
+    "eyecandycraftblocks:tilebmagenta",
+    "eyecandycraftblocks:tilepink"
   ]
 }

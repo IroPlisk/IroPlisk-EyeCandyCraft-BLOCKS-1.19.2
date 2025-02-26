@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "eyecandycraftblocks:white_brick_tile_mold"
+  },
+  "result": "eyecandycraftblocks:tilebwhite",
+  "experience": 1.0,
+  "cookingtime": 100
+}

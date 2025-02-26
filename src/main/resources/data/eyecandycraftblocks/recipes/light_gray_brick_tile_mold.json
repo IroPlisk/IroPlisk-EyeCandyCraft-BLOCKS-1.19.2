@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c c",
+    "   ",
+    "c c"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "eyecandycraftblocks:light_gray_brick_tile_mold",
+    "count": 9
+  }
+}
